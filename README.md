@@ -1,39 +1,44 @@
-# NetSecLab
+# 当前任务：
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## 1.学生端的竞赛信息获取
 
-#### 软件架构
-软件架构说明
+用到的数据库：competition_upload_competition(储存了竞赛信息和独有id) \ competition_teacher_teacherinformation(通过独有id返回教师名字)
+
+后端：完成teacher端的api ，competition端的api已完成（api/competition/list/）
+
+前端：展示列表，前半展示竞赛信息，后半展示教师信息
+
+## 2.学生端报名信息提交
+
+用到的数据库：apply(未建)->数据包含信息：学生的user_id，学生信息，指导老师，审批状态
+
+后端：接受报名信息存到数据库（未设计），设计api展示学生报名信息
+
+前端：设计学生报名界面
+
+## 3.教师审批学生报名信息
+
+用到的数据库：apply
+
+后端:通过前端设计的审批按钮改变数据库中的审批状态
+
+前端：设计交互逻辑
+
+## 4.学生接受报名反馈并上传材料
+
+数据库：apply，competition_student_uploadedfile
+
+后端：无
+
+前端：交互逻辑
+
+（上传疑似做完了)
+
+## 5.教师端下载材料
+
+数据库：competition_student_uploadedfile
+
+## X.前端美化
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
