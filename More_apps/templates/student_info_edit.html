@@ -1,0 +1,41 @@
+{% extends 'base1.html' %}
+
+{% block content %}
+  <h2>Student Information</h2>
+
+  <form method="POST">
+    {% csrf_token %}
+    <table class="table">
+      <tr>
+        <th>Name:</th>
+        <td>{{ form.name }}</td>
+      </tr>
+      <tr>
+        <th>College:</th>
+        <td>{{ form.college }}</td>
+      </tr>
+      <tr>
+        <th>Major:</th>
+        <td>{{ form.major }}</td>
+      </tr>
+      <tr>
+        <th>Student ID:</th>
+        <td>{{ form.student_id }}</td>
+      </tr>
+      <tr>
+        <th>Grade:</th>
+        <td>{{ form.grade }}</td>
+      </tr>
+      <tr>
+        <th>Gender:</th>
+        <td>{{ form.gender }}</td>
+      </tr>
+      <tr>
+        <th>Contact:</th>
+        <td>{{ form.contact }}</td>
+      </tr>
+    </table>
+    <button type="submit" class="btn btn-success">Save</button>
+  </form>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+<h2>我的竞赛</h2>
+<ul>
+    {% for application in applications %}
+        <li>
+            竞赛名称: {{ application.competition.name }} - 状态:
+            {% if application.status == 'pending' %}
+                审核中
+            {% elif application.status == 'approved' %}
+                进行中
+            {% else %}
+                已拒绝
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>

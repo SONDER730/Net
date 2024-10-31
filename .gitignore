@@ -1,0 +1,5 @@
+node_modules
+# Ignore IDE settings
+.idea/
+# Ignore Node modules
+frontend/node_modules/

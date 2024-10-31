@@ -1,0 +1,8 @@
+<h2>竞赛列表</h2>
+<ul>
+    {% for competition in competitions %}
+        <li>
+            <a href="{% url 'apply_for_competition' competition.id %}">{{ competition.name }}</a> - {{ competition.description }}
+        </li>
+    {% endfor %}
+</ul>

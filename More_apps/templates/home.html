@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <style>
+        body {
+            display: flex;
+        }
+        /* 左侧导航栏样式 */
+        .sidebar {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            height: 100vh; /* 左侧导航栏占满整个屏幕高度 */
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #ddd;
+            text-decoration: none;
+            text-align: center; /* 文字居中 */
+            color: black; /* 链接文字颜色 */
+            border-radius: 5px;
+        }
+        .sidebar a:hover {
+            background-color: #bbb; /* 鼠标悬停时的背景颜色 */
+        }
+        /* 页面内容区域 */
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+<<<<<<< HEAD
+   <a href="/tologin">登录</a>
+=======
+   <a href="/login/">登录</a>
+>>>>>>> 83f1edfc5ffa8e9f876eb602fbd78e4443d636dc
+    <a href="{% url 'competition' %}">竞赛公示</a>
+    <a href="{% url 'lab' %}">实验室公示</a>
+    <a href="{% url 'guide' %}">使用指南</a>
+</div>
+
+<div class="content">
+    <h1>欢迎来到主页！</h1>
+    <p>这是主页内容。</p >
+</div>
+
+</body>
+</html>

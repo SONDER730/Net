@@ -1,0 +1,10 @@
+<h2>All Student Uploaded Files</h2>
+<ul>
+    {% for file in files %}
+        <li>
+            <a href="/student{{ file.file.url }}">{{ file.file.name }}</a> uploaded by {{ file.student.username }} on {{ file.uploaded_at }}
+        </li>
+    {% empty %}
+        <li>No files uploaded by students yet.</li>
+    {% endfor %}
+</ul>

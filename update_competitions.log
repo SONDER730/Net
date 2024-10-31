@@ -1,0 +1,50 @@
+2024-10-31 01:46:49,066 INFO:成功获取 JSON 数据。
+2024-10-31 01:46:49,069 INFO:成功将 JSON 数据保存到 competitions.json。
+2024-10-31 01:46:49,070 INFO:成功从 competitions.json 加载 JSON 数据。
+2024-10-31 01:46:49,077 ERROR:处理比赛 'BRICS+ CTF Quals 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,077 ERROR:处理比赛 'BaseCTF 2024 高校联合新生赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,077 ERROR:处理比赛 '“华为杯”第三届中国研究生网络安全创新大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 '第五届“闽盾杯”网络空间安全大塞黑盾全国大学生赛道（决赛）' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 'WMCTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 'MoeCTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 'GEEKGAME 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 '2024'源鲁杯'高校网络安全技能大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,078 ERROR:处理比赛 '第八届御网杯信息安全大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,079 ERROR:处理比赛 '0xGame 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,079 ERROR:处理比赛 'SHCTF2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,079 ERROR:处理比赛 'NewStar CTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:46:49,079 INFO:所有比赛数据已成功处理。
+2024-10-31 01:48:04,587 INFO:成功获取 JSON 数据。
+2024-10-31 01:48:04,589 INFO:成功将 JSON 数据保存到 competitions.json。
+2024-10-31 01:48:04,590 INFO:成功从 competitions.json 加载 JSON 数据。
+2024-10-31 01:48:04,646 INFO:添加了新的比赛: BRICS+ CTF Quals 2024
+2024-10-31 01:48:04,656 INFO:添加了新的比赛: BaseCTF 2024 高校联合新生赛
+2024-10-31 01:48:04,666 INFO:添加了新的比赛: “华为杯”第三届中国研究生网络安全创新大赛
+2024-10-31 01:48:04,677 INFO:添加了新的比赛: 第五届“闽盾杯”网络空间安全大塞黑盾全国大学生赛道（决赛）
+2024-10-31 01:48:04,686 INFO:添加了新的比赛: WMCTF 2024
+2024-10-31 01:48:04,696 INFO:添加了新的比赛: MoeCTF 2024
+2024-10-31 01:48:04,705 INFO:添加了新的比赛: GEEKGAME 2024
+2024-10-31 01:48:04,714 INFO:添加了新的比赛: 2024'源鲁杯'高校网络安全技能大赛
+2024-10-31 01:48:04,724 INFO:添加了新的比赛: 第八届御网杯信息安全大赛
+2024-10-31 01:48:04,733 INFO:添加了新的比赛: 0xGame 2024
+2024-10-31 01:48:04,746 INFO:添加了新的比赛: SHCTF2024
+2024-10-31 01:48:04,755 INFO:添加了新的比赛: NewStar CTF 2024
+2024-10-31 01:48:04,755 INFO:所有比赛数据已成功处理。
+2024-10-31 01:53:18,287 INFO:成功获取 JSON 数据。
+2024-10-31 01:53:18,291 INFO:成功将 JSON 数据保存到 competitions.json。
+2024-10-31 01:53:18,291 INFO:成功从 competitions.json 加载 JSON 数据。
+2024-10-31 01:53:18,300 ERROR:处理比赛 'BRICS+ CTF Quals 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,300 ERROR:处理比赛 'BaseCTF 2024 高校联合新生赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,300 ERROR:处理比赛 '“华为杯”第三届中国研究生网络安全创新大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,300 ERROR:处理比赛 '第五届“闽盾杯”网络空间安全大塞黑盾全国大学生赛道（决赛）' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,301 ERROR:处理比赛 'WMCTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,301 ERROR:处理比赛 'MoeCTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,301 ERROR:处理比赛 'GEEKGAME 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,301 ERROR:处理比赛 '2024'源鲁杯'高校网络安全技能大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,302 ERROR:处理比赛 '第八届御网杯信息安全大赛' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,302 ERROR:处理比赛 '0xGame 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,302 ERROR:处理比赛 'SHCTF2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,302 ERROR:处理比赛 'NewStar CTF 2024' 时出错: Cannot resolve keyword 'name' into field. Choices are: created_at, description, end_date, id, start_date, title
+2024-10-31 01:53:18,302 INFO:所有比赛数据已成功处理。
+2024-10-31 12:01:09,525 ERROR:请求 JSON 数据失败: HTTPSConnectionPool(host='gitee.com', port=443): Max retries exceeded with url: /Probius/Hello-CTFtime/raw/main/CN.json (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024C60FB36D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-31 12:01:09,525 CRITICAL:脚本执行失败: HTTPSConnectionPool(host='gitee.com', port=443): Max retries exceeded with url: /Probius/Hello-CTFtime/raw/main/CN.json (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024C60FB36D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))

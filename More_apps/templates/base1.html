@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Student Portal</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="{% url 'view_and_edit_student_info' %}">View Student Info</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+</body>
+</html>

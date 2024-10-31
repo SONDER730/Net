@@ -1,0 +1,6 @@
+<h2>申请参加竞赛: {{ competition.name }}</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">提交申请</button>
+</form>

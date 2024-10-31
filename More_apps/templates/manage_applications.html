@@ -1,0 +1,10 @@
+<h2>竞赛申请管理</h2>
+<ul>
+    {% for application in applications %}
+        <li>
+            学生: {{ application.student.name }} - 竞赛: {{ application.competition.name }} - 状态: {{ application.get_status_display }}
+            <a href="{% url 'approve_application' application.id %}">批准</a> |
+            <a href="{% url 'reject_application' application.id %}">拒绝</a>
+        </li>
+    {% endfor %}
+</ul>

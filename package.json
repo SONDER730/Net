@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@fullcalendar/vue": "^6.1.15",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5"
+  }
+}

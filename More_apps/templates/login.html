@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>登录</title>
+
+    <style>
+
+        /* 居中表单 */
+
+        .center-form {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 100vh; /* 占满整个视口的高度 */
+
+            flex-direction: column; /* 使子元素垂直排列 */
+
+        }
+
+
+
+        /* 注册按钮样式 */
+
+        .register-btn {
+
+            background-color: #4CAF50; /* 绿色 */
+
+            color: white;
+
+            padding: 5px 10px;
+
+            margin-top: 10px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+
+
+        /* 可选：添加一些表单样式 */
+
+        form {
+
+            width: 300px; /* 表单宽度 */
+
+            padding: 20px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+
+
+
+        label {
+
+            display: block;
+
+            margin-bottom: 5px;
+
+        }
+
+
+
+        input[type="text"],
+
+        input[type="password"] {
+
+            width: calc(100% - 22px); /* 减去padding和border的影响 */
+
+            padding: 10px;
+
+            margin-bottom: 10px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+ <h2>Login</h2>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+    </form>
+
+            <!-- 添加注册按钮 -->
+
+            <button type="button" class="register-btn" onclick="location.href='/register/student/'">学生注册</button>
+<button type="button" class="register-btn" onclick="location.href='/register/teacher/'">教师注册</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
