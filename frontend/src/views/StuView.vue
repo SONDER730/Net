@@ -201,17 +201,14 @@
 
 <script>
 import axios from 'axios'; // 导入 Axios
-import Dialog from '@/components/SignupDialog.vue';
 import Calendar from '@/components/Calendar.vue';
 
 export default {
   components: {
-    Dialog,
-    Calendar,
+    Calendar
   },
   data() {
     return {
-      isDialogVisible:false,
       activeMenu: 'personalInfo',
       editMode: false,
       profileForm: {
@@ -261,9 +258,6 @@ export default {
     });
   },
   methods: {
-    show(){
-      this.isDialogVisible = true;
-    },
     fetchStudentInfo() {
       axios.get('/api/student-info/')
         .then(response => {
@@ -368,9 +362,6 @@ export default {
   padding: 20px;
   background-color: white;
   color: black;
-  background: url('@/assets/bg-student.png') no-repeat ;
-  background-position: center center;
-  background-size: cover; /* 背景图基于容器大小伸缩 */
   position: relative;
 }
 
@@ -434,4 +425,3 @@ export default {
   justify-content: end;
 }
 </style>
-

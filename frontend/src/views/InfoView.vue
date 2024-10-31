@@ -61,12 +61,16 @@
 
     <!-- 3. 实验室创新实践平台 -->
     <section class="split-lab-background lab-innovation">
-      <h2>实验室创新实践平台</h2>
+      <h2 style="color: #fff;">实验室创新实践平台</h2>
       <div class="lab-innovation-image">
         <img :src="innovationImage" alt="创新实践平台图片" />
       </div>
       <div class="lab-innovation-text">
-        <p>创新实践平台致力于通过最先进的实验设备和技术手段，帮助学生在实际项目中开展创新实践活动，提升网络安全技能。</p>
+        <p style="color: #fff;"> 实验中心以国家网络强国战略和信创国家战略为指导，紧扣新工科建设的要求，重视创新驱动和智力支撑的需求，致力于打造实验支撑能力、关键核心技术自主创新能力和实战化人才培养能力，目标是成为学院创新人才培养的重要基地。
+实验中心位于沙河校区的网安大楼一层，占地面积近一千平米。配备有超过600台/套的各类先进实验平台和实验箱及硬件设备，为全院师生提供实验与实践教学服务。实验中心还支持大学生的创新创业活动和开源社区实践，年使用人数超过700人。
+中心环境突出人文化和年轻化特征，充满科技感，深受学生喜爱。因其优秀的环境和管理，实验中心被学校评为实验室建设先进集体和实验室安全先进单位。
+作为网络空间安全创新实践基地，实验中心支撑着包括大学生创新创业项目、"雏燕"计划项目在内的多项活动。此外，中心还支持各类学科竞赛，如“北邮杯”全国中学生网络安全技术赛、TSCTF比赛等。与17家网络空间安全行业知名企业建立了合作关系，探索协同育人、专业共建等多方面的合作，为学生提供了通向企业的绿色通道，同时也为企业提供了优质的人才源。
+通过这种产、学、用一体的实践教学模式，实验中心不仅为学生提供了丰富的学习和实践机会，同时也架设了学院与行业之间的桥梁，促进了教育与行业的紧密合作。 </p>
       </div>
     </section>
   </div>
@@ -80,11 +84,11 @@ export default {
       showText: false, // 控制文字是否显示
       exhibitionImage: require('@/assets/Background.png'), // 展厅图片
       labImages: {
-        '102-103': require('@/assets/f-pic3.png'),
-        '104-105': require('@/assets/f-pic3.png'),
-        '107-108': require('@/assets/banner8.jpg'),
-        '109-110': require('@/assets/f-pic2.png'),
-        '112-113': require('@/assets/banner1.png'),
+        '102-103': require('@/assets/1.jpg'),
+        '104-105': require('@/assets/2.jpg'),
+        '107-108': require('@/assets/3.jpg'),
+        '109-110': require('@/assets/4.jpg'),
+        '112-113': require('@/assets/5.jpg'),
       },
       innovationImage: require('@/assets/banner1.png'), // 创新实践平台图片
     };
@@ -240,14 +244,15 @@ export default {
 
 /* 实验室创新实践平台样式 */
 .split-lab-background {
-  background: linear-gradient(225deg, white 50%, #001f3f 50%);
+ /*  background: linear-gradient(225deg, white 50%, #001f3f 50%); */
+ background:  #021E41; 
   border:white;
   margin: 0;
 }
 
 .lab-innovation {
   padding: 40px 20px;
-  background-color: #1d2430;
+  /* background-color: #1d2430; */
   color: #2C303B;
   text-align: center;
 }

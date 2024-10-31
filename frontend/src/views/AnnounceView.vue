@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <el-menu
+    <!-- <el-menu
       class="el-menu-vertical"
       :default-active="activeMenu"
       @select="handleMenuSelect"
@@ -11,7 +11,7 @@
       <el-menu-item index="awards">奖项竞赛</el-menu-item>
       <el-menu-item index="experts">人才专家</el-menu-item>
       <el-menu-item index="tools">科研工具</el-menu-item>
-    </el-menu>
+    </el-menu> -->
 
     <div class="content-container">
       <div v-if="activeMenu === 'awards'">
