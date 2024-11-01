@@ -10,7 +10,7 @@
       active-text-color="#409eff"
     >
       <el-menu-item index="personalInfo">
-        个人信息
+        个人信息 
       </el-menu-item>
       <el-menu-item index="myCompetitions">
         我的竞赛
@@ -18,9 +18,9 @@
       <!--<el-menu-item index="certificateDownload">
         证书下载
       </el-menu-item> -->
-      <el-menu-item index="paymentOrders">
-        缴费订单
-      </el-menu-item>
+      <!--el-menu-item index="paymentOrders"-->
+        <!-- 缴费订单 -->
+      <!-- </el-menu-item> -->
       <el-menu-item index="changePassword">
         修改密码
       </el-menu-item>
@@ -156,7 +156,7 @@
       </div>
       -->
       <!-- 缴费订单部分 -->
-      <div v-if="activeMenu === 'paymentOrders'">
+      <!-- <div v-if="activeMenu === 'paymentOrders'">
         <h2>缴费订单</h2>
         <el-table :data="paymentOrdersData" stripe style="width: 100%;">
           <el-table-column prop="id" label="编号"></el-table-column>
@@ -171,7 +171,7 @@
             </template>
           </el-table-column>
         </el-table>
-      </div>
+      </div> -->
 
       <!-- 修改密码部分 -->
       <div v-if="activeMenu === 'changePassword'">
@@ -211,6 +211,7 @@ export default {
     return {
       activeMenu: 'personalInfo',
       editMode: false,
+      isDialogVisible:false,
       profileForm: {
         name: '',
         student_id: '',
@@ -258,6 +259,7 @@ export default {
     });
   },
   methods: {
+    show(){},
     fetchStudentInfo() {
       axios.get('/api/student-info/')
         .then(response => {
@@ -269,7 +271,9 @@ export default {
         });
     },
     handleMenuSelect(index) {
+      // console.log('--------------------------',index)
       this.activeMenu = index;
+      console.log('--------------------------',this.activeMenu)
     },
     submitProfile() {
       axios.post('/api/student-info/', this.profileForm, {
@@ -295,6 +299,7 @@ export default {
       this.showCalendar = !this.showCalendar;
     },
     handleUpload(competitionId) {
+      console.log('------------------------------11111')
    const input = document.createElement('input');
    input.type = 'file';
    input.onchange = async (event) => {
@@ -412,9 +417,9 @@ export default {
   padding: 10px;
   border-radius: 15px;
    position: absolute;
-   top: 50%;
+   top: 20%;
    left: 50%;
-   transform: translate(-50%,-50%);
+   transform: translateX(-50%);
 }
 .my-competitions > div > h2 {
   color: #58DAFE;
